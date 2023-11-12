@@ -1,0 +1,119 @@
+
+/*COMMANDES GENERAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header {
+    background-color: #313131;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+}
+
+.haut {
+    display: flex;
+}
+
+.haut img {
+    width: 5%;
+}
+
+.main {
+    display: flex;
+}
+
+/*NAV*/
+
+nav {
+    background-color: #313131;
+    width: 10vw;
+    min-height: 80vh;
+}
+
+.photo1,
+.photo2 {
+    width: 30vw;
+    display: flex;
+    margin: 60px 10px;
+}
+
+/*MILIEU DE LA PAGE*/
+
+article {
+    background-color: #313131;
+    width: 20vw;
+    height: 20vw;
+    margin: 0 60px;
+    word-spacing: 0.5rem;
+    color: #dadada;
+    padding: 20px;
+}
+
+.article2{
+    height: 22vw;
+}
+
+.milieu {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+}
+
+.overwatch,
+.cod {
+    width: 10vw;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+/*FOOTER*/
+
+ul li.info a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}
+
+.footer {
+    background-color: #313131;
+    height: 10vh;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+
+
+
